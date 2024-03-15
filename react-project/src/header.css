@@ -1,3 +1,39 @@
-.container #discover {
-	margin-left: 1455px;
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-logo-name {
+  margin-left: 1em;
+}
+
+.main-nav ul, .footer-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;*/
+}
+
+.main-nav a, .footer-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-nav a:hover, .footer-nav a:hover  {
+  color: #adadad;
+}
+
+.main-header, .main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  height: 140px;
 }

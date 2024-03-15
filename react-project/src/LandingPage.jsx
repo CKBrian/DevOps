@@ -1,14 +1,15 @@
 import Header from './header'
-import Footer from './footer'
+import Section from './section'
+import './LandingPage.css'
 
 
 function LandingPage () {
 	return (
 		<>
+		<div className="container full-height-grow">
 			<Header/>
-			<main>
-			</main>
-			<Footer/>
+			<Section/>
+		</div>			
 		</>
 	)
 };
